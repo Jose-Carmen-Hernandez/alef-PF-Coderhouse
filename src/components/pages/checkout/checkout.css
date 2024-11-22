@@ -36,10 +36,17 @@
 .dark-order {
   background-color: #000;
 }
+.exito,
+.dark-exito {
+  background-color: #fcebb3;
+  border-radius: 10px;
+  padding: 10px;
+}
 .order h3 {
   margin-top: 20px;
   padding: 10px;
   background-color: #fcebb3;
+  color: #000;
   border-radius: 10px;
   margin-bottom: 20px;
 }

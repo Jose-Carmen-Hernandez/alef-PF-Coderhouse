@@ -80,7 +80,9 @@ const Checkout = ({ darkMode }) => {
 
     return (
       <div className={darkMode ? "order dark-order" : "order"}>
-        <h2>Compra exitosa. Numero de referencia: {orderId}</h2>
+        <h2 className={darkMode ? "dark-exito" : "exito"}>
+          Compra exitosa. Numero de referencia: {orderId}
+        </h2>
         <h3>Utiliza este numero de referencia para futuras aclaraciones.</h3>
         <Link to={"/"}>
           <Button variant="contained">Salir</Button>
