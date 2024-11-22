@@ -1,0 +1,14 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: #000;
+  margin-bottom: 20px;
+}
+.icon-dark {
+  color: #fcebb3;
+}

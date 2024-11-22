@@ -1,0 +1,93 @@
+/*ANIMACION PACMAN*/
+.container-loading {
+  /*  height: 400px; */
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #000;
+}
+
+.container-pacman {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.loading-title {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 2rem; */
+  font-size: 2rem;
+  font-style: italic;
+  /* padding: 25px; */
+}
+
+.pacman {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 150px;
+  left: 150px;
+  fill: none;
+  stroke: #f4d146;
+  stroke-width: 50px;
+  stroke-linecap: butt;
+  stroke-dasharray: 157;
+  animation: mouth 0.7s ease-in-out infinite;
+}
+
+.ojo {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 167px;
+  left: 204px;
+  fill: #2c2e2e;
+  animation: eye 0.7s ease-in-out infinite;
+}
+
+.pildora {
+  position: absolute;
+  height: 14px;
+  width: 240px;
+  top: 193px;
+  left: 180px;
+  stroke: #f4d146;
+  stroke-width: 14px;
+  stroke-dasharray: 0px 50px;
+  stroke-linecap: round;
+  animation: points 0.7s linear infinite;
+}
+
+@keyframes mouth {
+  0%,
+  100% {
+    stroke-dashoffset: 0;
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  50% {
+    stroke-dashoffset: 39.25;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes eye {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-6px, -3px, 0);
+  }
+}
+
+@keyframes points {
+  0% {
+    stroke-dashoffset: 14;
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    stroke-dashoffset: 64;
+  }
+}

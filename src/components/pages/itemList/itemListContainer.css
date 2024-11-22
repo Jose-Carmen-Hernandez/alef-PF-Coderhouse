@@ -1,0 +1,19 @@
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.list-container-dark {
+  background-color: #000;
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.offer-dark {
+  background-color: #000000a5;
+  color: #fff;
+}

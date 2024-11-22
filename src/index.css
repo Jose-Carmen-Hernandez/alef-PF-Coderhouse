@@ -1,0 +1,26 @@
+/* Archivo de estilos global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mode-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark-mode-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.light-style {
+  margin: 10px;
+  color: #000;
+}
+.dark-style {
+  margin: 10px;
+  color: #fff;
+}

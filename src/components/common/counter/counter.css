@@ -1,0 +1,18 @@
+.controlls {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.counter {
+  margin: 15px;
+  display: flex;
+}
+.sumar {
+  margin-left: 10px;
+}
+.restar {
+  margin-right: 10px;
+}
+.disable {
+  display: none;
+}

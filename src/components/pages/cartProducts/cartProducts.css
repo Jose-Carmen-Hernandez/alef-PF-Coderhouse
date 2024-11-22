@@ -1,0 +1,28 @@
+.cart-product {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 25px 150px;
+  text-transform: capitalize;
+  width: 90%;
+  border-bottom: 2px solid blue;
+}
+.cart-product-1 {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  text-transform: capitalize;
+  width: 25%;
+  margin-bottom: 20px;
+}
+.cart-product-1 h4 {
+  width: 50%;
+  margin-right: 25px;
+}
+.cart-product-1 img {
+  width: 25%;
+}
+.cart-product-2 {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
